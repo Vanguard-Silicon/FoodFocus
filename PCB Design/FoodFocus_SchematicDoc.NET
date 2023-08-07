@@ -1,0 +1,81 @@
+PARTS LIST
+
+22pF              FP-VY2472M49Y5UG63V7-MFGC?
+22pF              FP-VY2472M49Y5UG63V7-MFGC?
+10uF              FP-RAD-TH-D_5_0_5-L_11_1-MFGC?
+J_POWER           FP-B2B-XH-A_LF_SN-MFGJ?
+J_SALT_LC         FP-53047-0410-MFGJ?
+J_SUGAR_LC        FP-53047-0410-MFGJ?
+J_RTC             FP-53047-0410-MFGJ?
+J_I2C             FP-53047-0410-MFGJ?
+J_OIL_LC          FP-53047-0410-MFGJ?
+J_RPT_PUSH        FP-B3B-XH-A_LF_SN-MFGJ?
+J_CFM_PUSH        FP-B3B-XH-A_LF_SN-MFGJ?
+J_POT             FP-B3B-XH-A_LF_SN-MFGJ?
+J_OIL_LED         FP-B2B-XH-A_LF_SN-MFGJ?
+J_SUGAR_LED       FP-B2B-XH-A_LF_SN-MFGJ?
+J_SALT_LED        FP-B2B-XH-A_LF_SN-MFGJ?
+BUZZER            FP-MCKPX-G1203A-K4056-MFGLS?
+R_ATMEGA          RES_AC01_VIS    R?
+R_CFM_PUSH        RES_AC01_VIS    R?
+R_POT             RES_AC01_VIS    R?
+R_RPT_PUSH        RES_AC01_VIS    R?
+R_OIL_LED         RES_AC01_VIS    R?
+R_SUGAR_LED       RES_AC01_VIS    R?
+R_SALT_LED        RES_AC01_VIS    R?
+ATmega328-PU      28P3            U?
+16MHz             FOX-FOXSLF160-20Y?
+EOS
+NET LIST
+
+NODENAME +5V              $
+    C?         2  J?         1  J?         1  J?         1  J?         1  J?         1  J?         1  J?         1  J?         3  J?         3  R?         2  U?         7  U?        20
+NODENAME BUZZER           $
+    LS?        1  U?        17
+NODENAME CONFIRM_PUSH     $
+    J?         2  U?         5
+NODENAME DT_OIL_LC        $
+    J?         3  U?        15
+NODENAME DT_SALT_LC       $
+    J?         3  U?        19
+NODENAME DT_SUGAR_LC      $
+    J?         3  U?        16
+NODENAME GND              $
+    C?         1  C?         2  C?         2  J?         2  J?         2  J?         2  J?         2  J?         4  J?         4  J?         4  J?         4  J?         4  LS?        2  R?         2  R?         2  R?         2  U?         8  U?        22
+NODE     8                $
+    C?         1  U?        10  Y?         1
+NODE     9                $
+    C?         1  U?         9  Y?         2
+NODE     10               $
+    J?         1  R?         1
+NODE     11               $
+    J?         1  R?         1
+NODE     12               $
+    J?         1  R?         1
+NODE     13               $
+    J?         3  R?         1
+NODE     14               $
+    J?         3  R?         1
+NODE     15               $
+    J?         3  R?         1
+NODENAME NetLabel9        $
+  
+NODE     17               $
+    R?         1  U?         1
+NODENAME OIL_LED          $
+    R?         2  U?        11
+NODENAME POT              $
+    J?         2  U?        23
+NODENAME REPORT_PUSH      $
+    J?         2  U?         4
+NODENAME SALT_LED         $
+    R?         2  U?        13
+NODENAME SCK_LC           $
+    J?         2  J?         2  J?         2  U?        14
+NODENAME SCL              $
+    J?         1  J?         1  U?        28
+NODENAME SDA              $
+    J?         2  J?         2  U?        27
+NODENAME SUGAR_LED        $
+    R?         2  U?        12
+EOS

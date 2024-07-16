@@ -1,14 +1,43 @@
 # FoodFocus
-![FoodFocus Device](FoodFocus_Device.jpg)
 
-FoodFocus is a device that can track and analyse the consumption of sugar, salt and cooking oil of individuals or a group of people.
+<h2>By <a href="https://github.com/linukaratnayake">Linuka Ratnayake</a>, <a href="https://github.com/YasiruDEX">Yasiru Basnayake</a>, <a href="https://github.com/KavinduJ2001">Kavindu Jayathissa</a>, <a href="https://github.com/KumuthuDeZoysa">Kumuthu De Zoysa</a></h2>
 
-It was built for the EN1190: Engineering Design Project module in the Semester 2 curriculum of the Department of Electronic and Telecommunication Engineering, University of Moratuwa.
+<div style="text-align: center;">
+    <img src="FoodFocus_Device.jpg" alt="Food Focus Device" style="width: 60%;">
+</div>
 
-After a public survey, it was identified that even though most of the people are aware that the over-consumption of sugar, salt and cooking oil leads to health risks, they lack ways to measure their consumption rigorously. As a result, our team worked for about five months implementing a solution and FoodFocus is the ultimate product.
+FoodFocus is a device designed to track and analyze the consumption of sugar, salt, and cooking oil for individuals or groups. Developed as part of the EN1190: Engineering Design Project module at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, this device aims to provide an effective solution for monitoring dietary intake to promote healthier eating habits.
 
-The device mainly uses loadcells to measure weights of the compartments and the consumption is calculated after a sophisticated manipulation of the loadcell data. The device keeps track on the daily consumption of sugar, salt and cooking oil and indicates if the limit for a particular day is reached. It also provides detailed reports on the overall trend in consumption since the device is first powered on. Additionally, the device also works as a clock and can be used to set alarms to get notified when a food is cooked for the required amount of time.
+## Motivation
+A public survey revealed that while most people are aware of the health risks associated with the over-consumption of sugar, salt, and cooking oil, there is a lack of rigorous methods to measure their consumption. To address this gap, our team worked for about five months to develop FoodFocus, a comprehensive solution for tracking these dietary components.
 
-Coding was initially done using Wokwi platform and then the Arduino IDE using C++ language. PCB was designed using Altium Designer while the enclosure was designed using SOLIDWORKS. 
+## Features
+- Weight Measurement: Utilizes load cells to measure the weights of the compartments containing sugar, salt, and cooking oil.
+- Consumption Calculation: Manipulate load cell data to calculate daily consumption.
+- Daily Tracking: Keeps track of daily consumption and indicates when the daily limit is reached.
+- Trend Analysis: Provides detailed reports on consumption trends over time.
+- Clock and Alarm: Functions as a clock and includes alarm settings to notify when food has been cooked for the required amount of time.
 
-All the codes, PCB design files, gerber files, enclosure design files and other information regarding the project are available here.
+## PCB Design
+The PCB is designed as a two-layer board using **Altium Designer**
+<div style="text-align: center;">
+    <img src="Images/pcb_routing.PNG" alt="PCB" style="width: 50%;">
+</div>
+
+
+<div style="text-align: center;">
+    <img src="Images/3d-1.PNG" alt="3D-view" style="width: 50%;">
+</div>
+
+Schematics and PCB Design files can be found <a href="PCB Design">here</a>.
+
+## Enclosure Design
+Enclosure is designed using **SOLIDWORKS**
+<div style="text-align: center;">
+    <img src="Images/enclosure.jpg" alt="Enclosure" style="width: 60%;">
+</div>
+
+Solidworks files can be found <a href="Enclosure">here</a>.
+
+
+

@@ -6,7 +6,7 @@
     <img src="FoodFocus_Device.jpg" alt="Food Focus Device" style="width: 70%;">
 </div>
 
-FoodFocus is a device designed to track and analyze the consumption of sugar, salt, and cooking oil for individuals or groups. Developed as part of the EN1190: Engineering Design Project module at the Department of Electronic and Telecommunication Engineering, University of Moratuwa. this device aims to provide an effective solution for monitoring dietary intake to promote healthier eating habits.
+FoodFocus is a device designed to track and analyze the consumption of sugar, salt, and cooking oil for individuals or groups. This is developed as a part of the EN1190: Engineering Design Project module at the Department of Electronic and Telecommunication Engineering, University of Moratuwa. This device aims to provide an effective solution for monitoring dietary intake to promote healthier eating habits.
 
 ## Motivation
 A public survey revealed that while most people are aware of the health risks associated with the over-consumption of sugar, salt, and cooking oil, there is a lack of rigorous methods to measure their consumption. To address this gap, our team worked for about five months to develop FoodFocus, a comprehensive solution for tracking these dietary components.
